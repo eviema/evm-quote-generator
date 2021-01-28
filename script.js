@@ -27,7 +27,7 @@ function showError() {
 async function getQuote() {
   showLoadingSpinner();
 
-  const proxyUrl = "https://pure-atoll-40227.herokuapp.com/"; // Author's own proxy server
+  const proxyUrl = "https://evm-cors-proxy.herokuapp.com/"; // Author's own proxy server
   const apiUrl =
     "http://api.forismatic.com/api/1.0/?method=getQuote&lang=en&format=json";
 
